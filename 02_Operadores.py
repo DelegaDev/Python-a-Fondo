@@ -6,14 +6,25 @@ print (50 - 22)
 print (8 * 7)
 print (int (100 / 20)) # He forzado el tipo de dato a entero para que no muestre decimales.
 
+# 2. Calcula el resto de la división de 37 entre 5 y almacénalo en una variable remainder. Luego imprí­melo.
 
-# 2. Calcula el resto de la divisiÃ³n de 37 entre 5 y almacÃ©nalo en una variable remainder. Luego imprÃ­melo.
+remainder = 37 % 5
+print (remainder)
 
-# 3. Convierte el nÃºmero 7 en una cadena de texto y concatÃ©nalo con la frase â€œ es mi nÃºmero favoritoâ€. Imprime el resultado.
+# 3. Convierte el número 7 en una cadena de texto y concaténalo con la frase 'es mi nÃºmero favorito'. Imprime el resultado.
 
-# 4. Repite la palabra â€œPythonâ€ 10 veces usando el operador de multiplicaciÃ³n para cadenas y luego imprÃ­mela.
+print ( str(7) + ' es mi número favorito')
+
+# 4. Repite la palabra 'Python' 10 veces usando el operador de multiplicación para cadenas y luego imprí­mela.
+
+print ('Python ' * 10)
 
 # 5. Crea dos variables: a y b con los valores 12 y 8 respectivamente. Compara si a es mayor que b y almacena el resultado en una variable booleana resultado. Imprime el valor de resultado.
+
+a = 12
+b = 8 
+resultado = a > b
+print ( resultado)
 
 # 6. Compara dos cadenas de texto (â€œappleâ€ y â€œbananaâ€) usando los operadores > y < y explica cuÃ¡l tiene mayor orden alfabÃ©tico.
 

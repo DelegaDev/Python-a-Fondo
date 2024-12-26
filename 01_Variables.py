@@ -38,3 +38,4 @@ phone : int = 669123456
 print (type (phone))
 phone = 99876543
 print (type(phone))
+

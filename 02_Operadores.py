@@ -26,12 +26,23 @@ b = 8
 resultado = a > b
 print ( resultado)
 
-# 6. Compara dos cadenas de texto (â€œappleâ€ y â€œbananaâ€) usando los operadores > y < y explica cuÃ¡l tiene mayor orden alfabÃ©tico.
+# 6. Compara dos cadenas de texto (apple y banana) usando los operadores > y < y explica cuál tiene mayor orden alfabético.
 
-# 7. Realiza una comparaciÃ³n lÃ³gica usando and para verificar si el nÃºmero 10 es mayor que 5 y menor que 20. Imprime el resultado.
+print ('#6A', 'apple' > 'banana') # El resultado será False porque la 'b' es mayor que la 'a' en el orden alfabético.
+print ('#6B', 'apple' < 'banana') # El resultado será True. 
 
-# 8. Usa el operador or para verificar si el nÃºmero 7 es menor que 3 o mayor que 5. Imprime el resultado.
+# 7. Realiza una comparación lógica usando and para verificar si el número 10 es mayor que 5 y menor que 20. Imprime el resultado.
 
-# 9. Aplica el operador not para invertir el resultado de la comparaciÃ³n 15 > 20. Â¿CuÃ¡l es el resultado?
+print ('#7', 10 > 5 and 10 < 20) # El resultado será True porque cumple las dos condiciones.
 
-# 10. Combina operadores aritmÃ©ticos y lÃ³gicos: Verifica si el nÃºmero resultante de la expresiÃ³n (5 * 3) + 2 es mayor que 10 y menor que 20. Imprime el resultado.
+# 8. Usa el operador or para verificar si el número 7 es menor que 3 o mayor que 5. Imprime el resultado.
+
+print ('#8', 7 < 3 or 7 > 5) # El resultado será True porque cumple una de las condiciones.
+
+# 9. Aplica el operador not para invertir el resultado de la comparación 15 > 20. ¿Cuál es el resultado?
+
+print ('#9', not 15 > 20) # El resultado será True porque 'not' niega el resultado de la comparación.
+
+# 10. Combina operadores aritméticos y lógicos: Verifica si el número resultante de la expresión (5 * 3) + 2 es mayor que 10 y menor que 20. Imprime el resultado.
+
+print ('#10', ((5*3) + 2) > 10 and ((5*3) +2 ) < 20) # El resultado es True porque cumple las dos condiciones.

@@ -25,10 +25,20 @@ print ('#5', f'\n{a}\n{b}\n{c}\n{d}\n{e}\n{f}')
 
 # 6. Extrae un slice de la palabra Programación para obtener los caracteres desde la posición 3 hasta la 7.
 
+print ('#6', 'Programación'[3:8])
+
 # 7. Invierte la cadena 'Python' usando slicing y muestra el resultado.
+
+print ('#7', 'Python' [::-1])
 
 # 8. Convierte la cadena 'aprendiendo python' en mayúsculas usando el método adecuado e imprí­mela.
 
+print ('#8', 'aprendiendo python'.upper())
+
 # 9. Cuenta cuántas veces aparece la letra 'n' en la cadena 'Programación en Python'.
 
+print ('#9', 'Programación en Python'.count ('n'))
+
 # 10. Verifica si la cadena '12345' es numérica usando el método adecuado e imprime el resultado.
+
+print ('#10', '12345'.isnumeric ())
